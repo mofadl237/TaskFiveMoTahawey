@@ -1,35 +1,18 @@
-.product {
-    /*hsla h=> Color 0,360 = red / green = 120 / blue = 240 / s=> هياخد نسبه كام من اللون  /  L => هيبقي اقرب للابيض ولال الاسود / A=>Alpha الشفافيه*/
-    background-color: hsla(0, 90%, 20%, .5);
-    /*Image & Button Inline => text - align :Center Like Text*/
-    text-align: center;
+.Divinfo{
+    background-color:hsla(120,20%,50%,.5);
 }
-
-.product .div2 .titleProduct {
-    color: rgb(94, 3, 79);
-    font-size: 2.5rem;
+.Divinfo .titleInfo{
+    color:hsla(240,80%,50%,.8);
+    font-size: 2rem;
     font-style: italic;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-transform: uppercase;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 1px 1px 3px rgb(238, 36, 36),3px 3px 3px rgb(235, 238, 36) , 5px 5px 3px rgb(36, 214, 238);
 }
-
-.product .div3 .buyProduct {
-    font-size: 2rem;
-    background-color: #8f4444;
-    color: #fff;
-    font-style: oblique 5deg;
-}
-
-/*Style Section Two */
-.sectionImage {
-    height: 800px;
-    background: hsla(120, 90%, 20%, .5) url(./category-banner3.jpg) no-repeat fixed center / contain;
-}
-
-.sectionImage .imageDiv h3 {
-    color: hsla(0, 100%, 0%, 1);
-    text-align: center;
-    font-size: 2rem;
-    text-transform: capitalize;
-    letter-spacing: 20px;
+.Divinfo .info{
+    width:200px;
+    font-size: 1.5rem;
+    background-color: hsla(30, 40%, 50%, .5);
+    /*Text-Wrap => الطبيعي انه السطر يكون ع قد عرض الاب بتاعه وينزل يكمل تحت wrap مش بتخليه ينزل تحت بيكمل ع نفس السطر وبيخرج من عرض الاب بتاعه*/
+    text-wrap:nowrap;
+    color:#6286d3;
 }
