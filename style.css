@@ -1,0 +1,35 @@
+.product {
+    /*hsla h=> Color 0,360 = red / green = 120 / blue = 240 / s=> هياخد نسبه كام من اللون  /  L => هيبقي اقرب للابيض ولال الاسود / A=>Alpha الشفافيه*/
+    background-color: hsla(0, 90%, 20%, .5);
+    /*Image & Button Inline => text - align :Center Like Text*/
+    text-align: center;
+}
+
+.product .div2 .titleProduct {
+    color: rgb(94, 3, 79);
+    font-size: 2.5rem;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.product .div3 .buyProduct {
+    font-size: 2rem;
+    background-color: #8f4444;
+    color: #fff;
+    font-style: oblique 5deg;
+}
+
+/*Style Section Two */
+.sectionImage {
+    height: 800px;
+    background: hsla(120, 90%, 20%, .5) url(./category-banner3.jpg) no-repeat fixed center / contain;
+}
+
+.sectionImage .imageDiv h3 {
+    color: hsla(0, 100%, 0%, 1);
+    text-align: center;
+    font-size: 2rem;
+    text-transform: capitalize;
+    letter-spacing: 20px;
+}
